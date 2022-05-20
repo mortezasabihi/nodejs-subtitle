@@ -20,5 +20,10 @@
   },
   "dependencies": {
     "subtitle": "^4.1.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "src/output.json"
+    ]
   }
 }
